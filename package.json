@@ -1,7 +1,7 @@
 {
   "name": "@hpnzm/foo",
   "version": "0.0.1",
-  "description": "",
+  "description": "foo bar baz",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -9,10 +9,17 @@
     "build": "tsup index.ts --format cjs,esm --dts",
     "lint": "tsc"
   },
-  "author": "",
+  "author": "Phuong Nam",
   "license": "ISC",
   "devDependencies": {
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hpnzm/helloworld.git"
+  },
+  "keywords": [
+    "foo"
+  ]
 }
